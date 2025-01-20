@@ -21,14 +21,14 @@ export default defineConfig({
       {
         text: '文档',
         items: [
-          { text: '项目介绍', link: '/introduce' },
-          { text: '前端介绍', link: '/front/pageIntroduce' }
+          { text: '项目介绍', link: '/introduce.md' },
+          { text: '前端介绍', link: '/front/pageIntroduce.md' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Laoxiao7274/TestCloudDocument' }
     ]
   }
 })
