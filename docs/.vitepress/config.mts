@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "TestCloud",
+  title: "TestCloudDocument",
   description: "云试的开发文档",
-  base: '/TestCloudDoc/',
+  base: "TestCloudDocument",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
