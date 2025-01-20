@@ -1,10 +1,16 @@
 import { defineConfig } from 'vitepress'
+import mdTaskLisst from 'markdown-it-task-lists'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "TestCloudDocument",
   description: "云试的开发文档",
-  base: "TestCloudDocument",
+  base: "/TestCloudDocument/",
+  markdown: {
+    config: md => {
+      md.use(mdTaskLisst)
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
